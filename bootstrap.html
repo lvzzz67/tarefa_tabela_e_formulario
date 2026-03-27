@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome da Empresa | Soluções Corporativas</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #0d6efd; /* Azul Bootstrap */
+            --dark-color: #212529;
+            --light-color: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+        }
+
+        .navbar {
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-weight: 700;
+            font-size: 3rem;
+        }
+
+        .hero-section p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .card {
+            border: none;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .section-title {
+            font-weight: 700;
+            margin-bottom: 3rem;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title::after {
+            content: '';
+            width: 50px;
+            height: 4px;
+            background-color: var(--primary-color);
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+            padding: 30px 0;
+            .servicos{
+                margin:auto;
+                justify-content: center;
+                text-align: center;
+                display: flex;
+            }
+            .form-floating mb-4{
+                justify-content: center;
+                text-align: center;
+                display: flex;
+            }
+        }
+    </style>
+</head>
+<body>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4">Transformando Ideias em Resultados</h1>
+                    <p class="lead my-4">Soluções digitais de alta performance para levar sua empresa ao próximo nível. Inovação, qualidade e profissionalismo.</p>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sobre Section -->
+    <section id="sobre" class="py-5">
+        <div class="container text-center">
+            <h2 class="section-title">Sobre Nós</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <p class="lead text-muted">Com mais de 10 anos de mercado, nossa equipe é especializada em consultoria de negócios e desenvolvimento tecnológico. Focamos na eficiência e no retorno sobre o investimento (ROI) de nossos clientes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Serviços Section -->
+    <section id="servicos" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="row g-4">
+                <!-- Serviço 1 -->
+                <div class="col-md-4">
+                    <div class="card p-4">
+                        <div class="card-body">
+                            <div class="feature-icon"></div>
+                            <h3 class="card-title fw-bold">Consultoria Estratégica</h3>
+                            <p class="card-text text-muted">Análise profunda para definir os melhores rumos para sua empresa.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Serviço 2 -->
+                <div class="col-md-4">
+                    <div class="card p-4">
+                        <div class="card-body">
+                            <div class="feature-icon"></div>
+                            <h3 class="card-title fw-bold">Desenvolvimento Web</h3>
+                            <p class="card-text text-muted">Sites e sistemas personalizados, responsivos e modernos.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Serviço 3 -->
+                <div class="col-md-4">
+                    <div class="card p-4">
+                        <div class="card-body">
+                            <div class="feature-icon"></div>
+                            <h3 class="card-title fw-bold">Marketing Digital</h3>
+                            <p class="card-text text-muted">Aumente sua presença online e atraia mais clientes qualificados.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            /* Estilização Profissional */
+            .form-container {
+                max-width: 450px;
+                margin: 40px auto;
+                padding: 30px;
+                border-radius: 12px;
+                background-color: #ffffff;
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08); /* Sombra suave */
+                font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            }
+        
+            .form-header {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+        
+            .form-header h2 {
+                margin: 0;
+                color: #333;
+                font-size: 24px;
+            }
+        
+            .form-group {
+                margin-bottom: 20px;
+            }
+        
+            .form-label {
+                display: block;
+                margin-bottom: 8px;
+                font-weight: 600;
+                color: #555;
+                font-size: 14px;
+            }
+        
+            .form-input {
+                width: 100%;
+                padding: 12px 15px;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                font-size: 16px;
+                transition: all 0.3s ease; /* Animação no foco */
+                box-sizing: border-box; /* Garante padding correto */
+            }
+        
+            .form-input:focus {
+                border-color: #007bff;
+                box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+                outline: none;
+            }
+        
+            .form-button {
+                width: 100%;
+                padding: 12px;
+                border: none;
+                border-radius: 8px;
+                background-color: #007bff;
+                color: white;
+                font-size: 16px;
+                font-weight: 600;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+        
+            .form-button:hover {
+                background-color: #0056b3;
+            }
+        </style>
+        
+        <div class="form-container">
+            <div class="form-header">
+                <h2>Solicitar Orçamento</h2>
+            </div>
+            
+            <form>
+                <div class="form-group">
+                    <label class="form-label" for="name">Nome Completo</label>
+                    <input type="text" id="name" class="form-input" placeholder="João Silva" required>
+                </div>
+        
+                <div class="form-group">
+                    <label class="form-label" for="email">E-mail Profissional</label>
+                    <input type="email" id="email" class="form-input" placeholder="joao@empresa.com" required>
+                </div>
+        
+                <div class="form-group">
+                    <label class="form-label" for="message">Mensagem (opcional)</label>
+                    <textarea id="message" class="form-input" rows="4" placeholder="Conte-nos sobre seu projeto..."></textarea>
+                </div>
+        
+                <button type="submit" class="form-button">Enviar Solicitação</button>
+            </form>
+        </div>
+        
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2026 DigitalizaPro. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net"></script>
+</body>
+</html>
+
